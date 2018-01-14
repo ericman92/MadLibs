@@ -10,7 +10,7 @@ const MadLib1 = () => (
     </h1>
     
     <p>
-      I saw a (Person){MadLibAPI.getAdj()} with big (noun) on the train ride to (Place). To stop myself from staring, I (verb) my (noun). 
+      I saw a (Person){MadLibAPI.getAdj()} with big (noun){MadLibAPI.getAdj()} on the train ride to (Place). To stop myself from staring, I (verb) my (noun). 
     </p>
 
     <p>
